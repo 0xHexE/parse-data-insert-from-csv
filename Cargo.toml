@@ -1,0 +1,9 @@
+[package]
+name = "db_import"
+version = "0.1.0"
+authors = ["Omkar Yadav <httpsomkar@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+reqwest = "*"
+csv = "*"
