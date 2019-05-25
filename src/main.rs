@@ -19,6 +19,10 @@ fn main() {
 
             for i in 0..headers.len() {
                 push_data.push_str(format!("\"{}\": \"{}\"", headers.get(i).unwrap(), record.get(i).unwrap()).as_str());
+
+                if i != headers.len() {
+                    push_data.push_str(",");
+                }
             }
 
             push_data.push_str("}");

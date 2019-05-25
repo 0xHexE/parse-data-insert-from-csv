@@ -10,4 +10,3 @@ Inserts the data from the
 To run the code run the following command
 
 `APPLICATION_ENDPOINT=ENDPOINT APPLICATION_ID=TEST FILE_PATH=file1.csv,file2.csv cargo run --release`
- 
